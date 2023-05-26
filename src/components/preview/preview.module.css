@@ -1,0 +1,75 @@
+.preview {
+  width: 40%;
+  height: 90%;
+  border: 2px dotted;
+}
+.heading {
+  text-align: center;
+  text-decoration: underline;
+}
+.grid {
+  margin: 1rem;
+  height: 75%;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button > button {
+  width: 8rem;
+  height: 2.9rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: transform 0.1s ease-in;
+}
+.button > button:hover {
+  transform: translateY(-4px);
+}
+.list {
+  list-style: none;
+  cursor: pointer;
+  padding-top: 2rem;
+}
+.listItems {
+  display: block;
+  padding: 1rem;
+  position: relative;
+}
+.tick {
+  position: absolute;
+  margin-left: 1rem;
+}
+.mode {
+  padding-left: 1rem;
+}
+.output {
+  display: fle;
+  justify-content: center;
+  align-items: center;
+}
+.errorBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.errorMessage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  height: 25%;
+  width: 70%;
+}
+.nullValue {
+  background-color: var(--blue);
+}
+.multipleValue {
+  background-color: var(--yellow);
+}
+.notrequiredValue {
+  background-color: var(--red);
+}

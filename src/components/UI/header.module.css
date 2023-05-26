@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: left;
+  align-items: start;
+  height: 10vh;
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.link {
+  color: white !important;
+  margin: 0 1rem;
+  font-size: 1.4rem;
+}
+.active {
+  color: var(--red) !important;
+}
+.link:hover {
+  color: yellow !important;
+}

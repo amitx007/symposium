@@ -1,0 +1,30 @@
+:root {
+  --black: #191a19;
+  --deepGreen: #1e5128;
+  --green: #4e9f3d;
+  --lightGreen: #d8e9a8;
+  --white: #ffffff3a;
+}
+.card {
+  color: white;
+  width: 90vw;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  /* flex-direction: column; */
+}
+.options {
+  width: 50%;
+  display: flex;
+  margin-bottom: 1rem !important;
+}
+.options > h3 {
+  padding: 0rem 1rem;
+  cursor: pointer;
+}
+.active {
+  background-color: red;
+}

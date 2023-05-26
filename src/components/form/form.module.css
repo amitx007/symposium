@@ -1,0 +1,80 @@
+.form {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.options {
+  width: 100%;
+  height: 3rem !important;
+  display: flex;
+  margin-left: 50%;
+  margin-bottom: 1rem;
+  transform: translateX(-16%);
+}
+.options > span {
+  cursor: pointer;
+  font-size: 2.2rem;
+  margin: 0 1rem;
+  height: fit-content;
+  padding: 0 1rem;
+  font-weight: 600 !important;
+}
+.active {
+  transition: background-color 0.2s ease-in-out;
+  border-radius: 0.4rem;
+}
+.active1{
+  background-color: var(--deepGreen);
+}
+.active2{
+    background-color: var(--yellow);
+}
+.actualForm{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+label[for="key"],label[for="blocks"],label[for="size"],label[for="image"]{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding: 0rem 5rem 1rem 0;
+}
+#key,#size,#blocks{
+    width: 13.5rem ;
+    height: 2.2rem;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    margin: 0.6rem 0rem;
+    padding: 0 0.4rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    
+}
+.formOptions{
+  display: flex;
+  flex-wrap: wrap;
+}
+.formOptions>div{
+  margin-top: 1rem;
+}
+.formOptions>div:nth-child(2){
+  margin-left: 2rem;
+}
+.formOptions>div:nth-child(3){
+  width: 100% !important;
+}
+#key{
+  width: 93.5%;
+  text-align: left;
+}
+
+select[ name="size"]{
+  width: 16.7rem !important;
+}

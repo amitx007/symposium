@@ -1,0 +1,24 @@
+.errorContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.errorMessage{
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+.errorText,.text{
+    color: white;
+}
+.backButton{
+    width: 6rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+img{
+    width: 2rem;
+}

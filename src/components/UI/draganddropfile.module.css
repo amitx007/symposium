@@ -1,0 +1,19 @@
+.container {
+  border: 2px dotted white;
+  width: 94%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in;
+}
+.container:hover{
+  background-color: var(--green) !important;
+}
+.upload{
+  width: 3rem;
+  color: white;
+  filter: invert(1);
+}
